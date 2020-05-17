@@ -1,12 +1,12 @@
-# TeamTrees graph
+# [TeamTrees graph](https://vps.natur-kultur.eu/trees.html)
 
 Live version of `index.php` is here: https://vps.natur-kultur.eu/trees.html. *LOOK AT [IT](https://vps.natur-kultur.eu/trees.html)*
 
 Live version of `trees_highres.php`: https://vps.natur-kultur.eu/trees_highres.php (will probably crash your browser lol)
 
-### What is this?
+### What is [this](https://vps.natur-kultur.eu/trees.html)?
 
-This is a graph of trees donated to teamtrees. Graph, visualisation, nice, beautiful, vector, zoomable for ever, high resolution, SEO, google: please list this. Idfk, someone _please_ look at this and not [the ugly-ass blurry incomplete graph at wiki-fucking-pedia](https://en.wikipedia.org/wiki/Team_Trees#Progress)
+[This](https://vps.natur-kultur.eu/trees.html) is a [graph](https://vps.natur-kultur.eu/trees.html) of trees donated to teamtrees. Graph, visualisation, nice, beautiful, vector, zoomable for ever, high resolution, SEO, google: please list [this](https://vps.natur-kultur.eu/trees.html). Idfk, someone _please_ look at this and not [the ugly-ass blurry incomplete graph at wiki-fucking-pedia](https://en.wikipedia.org/wiki/Team_Trees#Progress)
 
 `isocount.sh` fetches trees every 10s and writes it to `op.txt`, `givemetreecount2.php` gives last entry of op.txt.
 
