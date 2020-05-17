@@ -17,15 +17,39 @@
     body {
       font-size: 1.7vh;
       font-family: 'Ubuntu', sans-serif;
+      background: rgba(0,0,0,0.9);
+      color: white;
     }
     a{color:blue;text-decoration: none}
     a:hover{text-decoration: underline}
+    .vis-data-axis .vis-y-axis.vis-major {
+      color: white !important;
+    }
+    .vis-data-axis .vis-y-axis.vis-minor {
+      color: rgba(255,255,255,0.6) !important;
+    }
+    .vis-time-axis .vis-text {
+      color: white !important;
+    }
+    .vis-panel.vis-background.vis-horizontal .vis-grid.vis-minor {
+      border-color: rgba(255,255,255,0.6) !important;
+    }
+    .vis-panel.vis-background.vis-horizontal .vis-grid.vis-major {
+      border-color: white !important;
+    }
+    a{color:hsl(232,69%,69%);text-decoration: none}
+    a:hover{text-decoration: underline}
+    h3{color:white;text-decoration: underline;}
+    h3:hover{text-decoration: none;}
+    .vis-graph-group0 {
+      fill: #0074ff !important;
+    }
   </style>
 
   <script src="https://visjs.github.io/vis-timeline/dist/vis-timeline-graph2d.min.js"></script>
   <link href="https://visjs.github.io/vis-timeline/dist/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="darkmode">
 <h3 style="font-size: 1.2em;">Tree count graph of #TeamTrees.</h3>
 <div id="visualization" style="max-height: 90vh;"></div>
 
